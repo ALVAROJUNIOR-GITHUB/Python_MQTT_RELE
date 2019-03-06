@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>674</width>
+    <height>445</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Controle de Reles</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_on_rele_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 1 - ON</string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_on_rele_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 2 - ON </string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_on_rele_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 3 - ON</string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_on_rele_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 4 - ON</string>
+    </property>
+    <property name="autoRepeatDelay">
+     <number>300</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_off_rele_1">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 1 - OFF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_off_rele_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>120</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 2 - OFF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_off_rele_3">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>220</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 3 - OFF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_off_rele_4">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>320</y>
+      <width>300</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rele 4 - OFF</string>
+    </property>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>98</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QSplitter" name="splitter_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
